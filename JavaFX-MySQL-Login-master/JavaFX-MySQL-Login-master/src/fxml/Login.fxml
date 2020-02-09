@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="503.0" prefWidth="854.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+    <children>
+        <AnchorPane prefHeight="503.0" prefWidth="382.0" style="-fx-background-color: #D6EAF8;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="141.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/tdl2.png" />
+                    </image>
+                </ImageView>
+                <Label alignment="CENTER" layoutX="105.0" layoutY="274.0" prefHeight="23.0" prefWidth="173.0" text="ToDoApp" textFill="#00c8ff">
+                    <font>
+                        <Font name="Segoe UI" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <Pane layoutX="488.0" layoutY="100.0" AnchorPane.bottomAnchor="73.0" AnchorPane.topAnchor="100.0">
+            <children>
+                <TextField fx:id="txtUsername" layoutX="8.0" layoutY="61.0" prefHeight="34.0" prefWidth="275.0" promptText="username or email" />
+                <PasswordField fx:id="txtPassword" layoutX="8.0" layoutY="148.0" prefHeight="34.0" prefWidth="275.0" promptText="password" stylesheets="@../styling/fullpackstyling.css" />
+                <Button fx:id="btnSignin" layoutX="77.0" layoutY="236.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="34.0" prefWidth="137.0" stylesheets="@../styling/fullpackstyling.css" text="Sign in" />
+                <Label fx:id="lblErrors" alignment="CENTER" layoutX="8.0" layoutY="95.0" prefHeight="23.0" prefWidth="275.0" textFill="#ff6354">
+                    <font>
+                        <Font name="Segoe UI" size="10.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
