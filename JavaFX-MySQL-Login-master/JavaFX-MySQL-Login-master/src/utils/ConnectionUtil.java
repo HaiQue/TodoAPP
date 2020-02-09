@@ -11,7 +11,7 @@ import java.sql.SQLException;
 
 /**
  *
- * @author oXCToo
+ * @author HaiQ
  */
 public class ConnectionUtil {
     Connection conn = null;
