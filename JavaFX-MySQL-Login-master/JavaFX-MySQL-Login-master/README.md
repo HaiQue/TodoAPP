@@ -1,1 +1,1 @@
-# JAVAFX LOGIN UI DESIGN WITH MYSQL DB INTERGRATION
+JAVAFX login UI desing with MySQL database integration
